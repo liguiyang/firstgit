@@ -14,23 +14,6 @@ var z = arr.reduce((0,100,0)) {
     return (sum,min,max)
 }
 
-print(z)
-
-var sum = 0
-var min = 0
-var max = 0
-for x in arr {
-    sum = sum + x
-    if x < min {
-        min = x
-    }
-    if x > max {
-        max = x
-    }
-}
-
-print(sum)
-
 
 var arr2 = [["name":"lgy","age":44],["name":"gyx","age":43]]
 
